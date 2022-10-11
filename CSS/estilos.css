@@ -1,0 +1,25 @@
+*{margin: 0;padding: 0;}
+*{font-family: 'Montserrat', sans-serif;}
+.header h1 img {padding-left: 10px;}
+.ul     {text-align: right;}
+.ul li  { display: inline;padding: 10px;}
+.ul li a {text-decoration: none;}
+.sizeLogo   {width: 15%;}
+.body {background-color: blanchedalmond}
+.main {padding: 50px 10px}
+.main section {padding-bottom: 70px;}
+.main section h2 {padding-bottom: 20px;}
+.main section h3 {padding-bottom: 20px;}
+.main section p {padding-bottom: 20px;}
+.main section img {width: 300px;display: inline;}
+.main section article img {position: relative; left: 30%; width:max-content;}
+.main section form fieldset label {display: block;}
+.main section form fieldset textarea {display: block;}
+.section {padding: 10px}
+.section article {padding-top: 20px;padding-bottom: 20px;}
+.section article a img {width: 480px;}
+.footer {padding-left: 10px; padding-top: 50px;}
+.footer p {position: absolute; right: 10px;}
+.footer div {position: fixed; bottom: 20px; right: 10px;}
+.footer div a {display: inline;}
+.footer div a img {width: 50px;height: 50px;}
