@@ -11,15 +11,29 @@
 .main section h2 {padding-bottom: 20px;}
 .main section h3 {padding-bottom: 20px;}
 .main section p {padding-bottom: 20px;}
-.main section img {width: 300px;display: inline;}
-.main section article img {position: relative; left: 30%; width:max-content;}
+.main section img {width: 300px;
+                    display: inline;}
+.main section article img {position: relative; 
+                            left: 30%; 
+                            width:max-content;}
 .main section form fieldset label {display: block;}
 .main section form fieldset textarea {display: block;}
 .section {padding: 10px}
-.section article {padding-top: 20px;padding-bottom: 20px;}
+.section article {padding-top: 20px;
+                    padding-bottom: 20px;}
 .section article a img {width: 480px;}
-.footer {padding-left: 10px; padding-top: 50px;}
-.footer p {position: absolute; right: 10px;}
-.footer div {position: fixed; bottom: 20px; right: 10px;}
+.section_flex {display: flex;
+                flex-flow: row wrap;
+                justify-content: space-around;
+                align-items:center;}
+.section_flex article a img {width: 480px;}
+.footer {padding-left: 10px; 
+        padding-top: 50px;}
+.footer p {position: absolute; 
+            right: 10px;}
+.footer div {position: fixed; 
+            bottom: 20px; 
+            right: 10px;}
 .footer div a {display: inline;}
-.footer div a img {width: 50px;height: 50px;}
+.footer div a img {width: 50px;
+                height: 50px;}
