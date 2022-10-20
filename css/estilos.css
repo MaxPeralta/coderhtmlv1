@@ -1,35 +1,59 @@
 *{margin: 0;padding: 0;}
 *{font-family: 'Montserrat', sans-serif;}
 
-.div {
-        background-color: #48CAE4;
-        height: 70px;
-        position: fixed;
-        width: 100%;
+.body {background-color: #fffcf5;}
+.nav {
+        padding: 0px;
+        height: 60px;
+        background-color: #03045E}
+.nav div div {
+        justify-content: end;
+        background-color: #03045E;}
+.nav div div ul li a {
+        color: aliceblue;
 }
-.div nav div div ul li a {
-        color: #03045E ;
-        font-weight: bold;
+.main section div {
+        padding: 10px;}
+.main section div img {
+        width: 90%;} 
+.main section div h2 {
+        text-align: center;
+        font-weight: 600;
 }
 .divflex {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
 }
-.footerflex div {
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
-}
-.footerflex div a {
-        width: 5%;
-}
-.footerflex div img {
+.modelos_main img{
         width: 100%;
-        padding: 2px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;}
+.modelos_main h3 {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 30px;
+        font-weight: 700;}
+.modelos_main div{
+        padding-top: 30px;}
+.modelos_main p {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 0px;}
+.modelos_main button{
+        margin-left: 10px;
+        margin-right: 10px;
 }
-.footer p {
-        text-align: right;
+.footer {background-color: #03045E;
+        margin-top: 50px;
+        padding: 10px;}
+.footer img{
+        width: 25%;}
+.footer p{
         font-size: 80%;
+        color: #fffcf5;
+        text-align: right;
+        margin: 0px;
 }
-
