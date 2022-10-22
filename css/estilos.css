@@ -23,13 +23,33 @@
         text-align: right;
         margin: 0px;
 }
-.main section div {
+/* .main section div {
         padding: 10px;}
 .main section div img {
         width: 90%;} 
 .main section div h2 {
         text-align: center;
         font-weight: 600;
+} */
+.index_main div{
+        padding-top: 40px;
+        padding-bottom: 40px;
+}
+.index_main h1 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 100px;
+}
+.index_main h2 {
+        text-align: center;
+        
+}
+
+.index_main img{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
 }
 .divflex {
         display: flex;
@@ -60,9 +80,6 @@
 .fondoblanco {
         background-color:lavender;
 }
-/* .motorhome_main_imgportada{
-        width: 40%;
-} */
 .motorhome_main img {
         margin-left: auto;
         margin-right: auto;
@@ -119,5 +136,11 @@
         }
         .motorhome_main_imgportada{
                 width: 70%;
+        }
+        .index_main h1{
+                font-size:xx-large;
+        }
+        .index_main div{
+                padding-top: 10px;
         }
 }
