@@ -114,8 +114,8 @@
         
 @media screen and (max-width: 768px) {
         .motorhome_grid{
-                
-                grid-template-rows: 2fr;    
+                display: flex;
+                flex-direction: column;
         }
         .motorhome_main_imgportada{
                 width: 70%;
