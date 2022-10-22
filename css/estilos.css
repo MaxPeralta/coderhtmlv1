@@ -60,8 +60,10 @@
 .fondoblanco {
         background-color:lavender;
 }
-.motorhome_main img {
+/* .motorhome_main_imgportada{
         width: 40%;
+} */
+.motorhome_main img {
         margin-left: auto;
         margin-right: auto;
         display: block;}
@@ -109,9 +111,13 @@
 }
 .motorhome_div img{
         inline-size: 100%;}
+        
 @media screen and (max-width: 768px) {
         .motorhome_grid{
                 
                 grid-template-rows: 2fr;    
+        }
+        .motorhome_main_imgportada{
+                width: 70%;
         }
 }
