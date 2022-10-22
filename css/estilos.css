@@ -12,6 +12,17 @@
 .nav div div ul li a {
         color: aliceblue;
 }
+.footer {background-color: #03045E;
+        margin-top: 50px;
+        padding: 10px;}
+.footer img{
+        width: 25%;}
+.footer p{
+        font-size: 80%;
+        color: #fffcf5;
+        text-align: right;
+        margin: 0px;
+}
 .main section div {
         padding: 10px;}
 .main section div img {
@@ -46,14 +57,56 @@
         margin-left: 10px;
         margin-right: 10px;
 }
-.footer {background-color: #03045E;
-        margin-top: 50px;
-        padding: 10px;}
-.footer img{
-        width: 25%;}
-.footer p{
-        font-size: 80%;
-        color: #fffcf5;
-        text-align: right;
-        margin: 0px;
+.fondoblanco {
+        background-color:lavender;
 }
+.motorhome_main img {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;}
+.motorhome_main h2{
+        text-align: center;
+        font-weight: 700;
+        padding-top: 20px;}
+.motorhome_main h5{
+        padding-left: 20px;}
+.motorhome_main p {
+        text-align: justify;
+        padding-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+}
+.motorhome_grid {
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-rows: 6fr 2fr;
+        justify-items: stretch;
+        grid-template-areas: 
+        "img_pr img_pr img_pr img_pr"
+        "img_1 img_2 img_3 img_4";
+        padding-top: 20px;}
+.motorhome_grid img {
+        inline-size: 100%;
+        padding-top: 5px;
+        padding-right: 5px;
+        border-radius: 10px;
+        }
+.img_pr{
+        grid-area: img_pr;
+        background-image: url(../multimedia/a_int1.jpg);
+        background-size: cover;
+        border-radius: 10px;
+        }     
+.img_1{grid-area: img_1;}
+.img_2{grid-area: img_2;}
+.img_3{grid-area: img_3;}
+.img_4{grid-area: img_4;}
+
+.motorhome_div {
+        padding-top: 50px;
+}
+.motorhome_div img{
+        inline-size: 100%;}
+
