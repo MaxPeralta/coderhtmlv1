@@ -5,14 +5,14 @@
 .nav {
         padding: 0px;
         height: 60px;
-        background-color: #03045E}
+        background-color: #023e8a}
 .nav div div {
         justify-content: end;
-        background-color: #03045E;}
+        background-color: #023e8a;}
 .nav div div ul li a {
         color: aliceblue;
 }
-.footer {background-color: #03045E;
+.footer {background-color: #023e8a;
         margin-top: 50px;
         padding: 10px;}
 .footer img{
@@ -113,8 +113,8 @@
 .img_1{grid-area: img_1;}
 .img_2{grid-area: img_2;}
 .img_3{grid-area: img_3;}
-.img_4{grid-area: img_4;}
-
+.img_4{grid-area: img_4;
+}
 .motorhome_grid_b {
         display: grid;
         grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
@@ -137,8 +137,6 @@
         background-size: cover;
         border-radius: 10px;
         }
-
-
 .motorhome_grid_c {
         display: grid;
         grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
@@ -184,14 +182,48 @@
         background-size: cover;
         border-radius: 10px;
         }
-
-
 .motorhome_div {
-        padding-top: 50px;
-}
+        padding-top: 50px;}
 .motorhome_div img{
-        inline-size: 100%;}
-        
+        inline-size: 100%;
+}
+.contacto_main h2{
+        text-align: center;
+        font-weight: 700;
+        padding-top: 20px;}
+.contacto_main p {
+        text-align: justify;
+        padding-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;}
+.contacto_main div{
+        margin-top: 30px;
+}
+.formulario {
+        border: 10px;
+        font-size: 90%;}
+.formulario label{
+        display: block;}
+.formulario input{
+        display: block;}
+.formulario textarea {
+        width: 100%;
+        box-sizing: border-box;
+}
+.img_scale img{
+        transition: all 0.5s;
+}
+.img_scale img:hover{
+        width: 110%;}
+.redes_sociales {
+        display: flex;
+        flex-direction: row-reverse;
+}
+.redes_sociales img {
+        width: 50px;
+        height: 50px;
+}
 @media screen and (max-width: 768px) {
         .motorhome_grid{
                 display: flex;
