@@ -1,0 +1,253 @@
+.img_scale img {
+  transition: all 0.5s; }
+  .img_scale img:hover {
+    width: 110%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+* {
+  font-family: 'Montserrat', sans-serif; }
+
+.nav {
+  padding: 0px;
+  height: 60px;
+  background-color: #023e8a; }
+  .nav div div {
+    justify-content: end;
+    background-color: #023e8a; }
+    .nav div div ul li a {
+      color: aliceblue; }
+
+.body {
+  background-color: #fffcf5; }
+
+.footer {
+  background-color: #023e8a;
+  margin-top: 50px;
+  padding: 10px; }
+  .footer img {
+    width: 25%; }
+  .footer p {
+    font-size: 80%;
+    color: #fffcf5;
+    text-align: right;
+    margin: 0px; }
+
+.index_main div {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.index_main h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 100px; }
+
+.index_main h2 {
+  text-align: center; }
+
+.index_main img {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.divflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.modelos_main img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.modelos_main h3 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: 700; }
+
+.modelos_main div {
+  padding-top: 30px; }
+
+.modelos_main p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0px; }
+
+.modelos_main button {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.fondoblanco {
+  background-color: lavender; }
+
+.motorhome_main img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.motorhome_main h2 {
+  text-align: center;
+  font-weight: 700;
+  padding-top: 20px; }
+
+.motorhome_main h5 {
+  padding-left: 20px; }
+
+.motorhome_main p {
+  text-align: justify;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px; }
+
+.motorhome_grid {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 6fr 2fr;
+  justify-items: stretch;
+  grid-template-areas: "img_pr img_pr img_pr img_pr" "img_1 img_2 img_3 img_4";
+  padding-top: 20px; }
+  .motorhome_grid img {
+    inline-size: 100%;
+    padding-top: 5px;
+    padding-right: 5px;
+    border-radius: 10px; }
+
+.motorhome_grid_b {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 6fr 2fr;
+  justify-items: stretch;
+  grid-template-areas: "img_prb img_prb img_prb img_prb" "img_1 img_2 img_3 img_4";
+  padding-top: 20px; }
+  .motorhome_grid_b img {
+    inline-size: 100%;
+    padding-top: 5px;
+    padding-right: 5px;
+    border-radius: 10px; }
+
+.motorhome_grid_c {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 6fr 2fr;
+  justify-items: stretch;
+  grid-template-areas: "img_prc img_prc img_prc img_prc" "img_1 img_2 img_3 img_4";
+  padding-top: 20px; }
+  .motorhome_grid_c img {
+    inline-size: 100%;
+    padding-top: 5px;
+    padding-right: 5px;
+    border-radius: 10px; }
+
+.motorhome_grid_4x4 {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 6fr 2fr;
+  justify-items: stretch;
+  grid-template-areas: "img_pr4x4 img_pr4x4 img_pr4x4 img_pr4x4" "img_1 img_2 img_3 img_4";
+  padding-top: 20px; }
+  .motorhome_grid_4x4 img {
+    inline-size: 100%;
+    padding-top: 5px;
+    padding-right: 5px;
+    border-radius: 10px; }
+
+.img_pr {
+  grid-area: img_pr;
+  background-image: url(../multimedia/a_int1.jpg);
+  background-size: cover;
+  border-radius: 10px; }
+
+.img_1 {
+  grid-area: img_1; }
+
+.img_2 {
+  grid-area: img_2; }
+
+.img_3 {
+  grid-area: img_3; }
+
+.img_4 {
+  grid-area: img_4; }
+
+.img_prb {
+  grid-area: img_prb;
+  background-image: url(../multimedia/b_int1.jpg);
+  background-size: cover;
+  border-radius: 10px; }
+
+.img_prc {
+  grid-area: img_prc;
+  background-image: url(../multimedia/c_int1.jpg);
+  background-size: cover;
+  border-radius: 10px; }
+
+.img_pr4x4 {
+  grid-area: img_pr4x4;
+  background-image: url(../multimedia/4x4_int1.jpg);
+  background-size: cover;
+  border-radius: 10px; }
+
+.motorhome_div {
+  padding-top: 50px; }
+  .motorhome_div img {
+    inline-size: 100%; }
+
+.contacto_main h2 {
+  text-align: center;
+  font-weight: 700;
+  padding-top: 20px; }
+
+.contacto_main p {
+  text-align: justify;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px; }
+
+.contacto_main div {
+  margin-top: 30px; }
+
+.formulario {
+  border: 10px;
+  font-size: 90%; }
+  .formulario label {
+    display: block; }
+  .formulario input {
+    display: block; }
+  .formulario textarea {
+    width: 100%;
+    box-sizing: border-box; }
+
+.redes_sociales {
+  display: flex;
+  flex-direction: row-reverse; }
+  .redes_sociales img {
+    width: 50px;
+    height: 50px; }
+
+@media screen and (max-width: 768px) {
+  .motorhome_grid {
+    display: flex;
+    flex-direction: column; }
+  .motorhome_grid_b {
+    display: flex;
+    flex-direction: column; }
+  .motorhome_grid_c {
+    display: flex;
+    flex-direction: column; }
+  .motorhome_grid_4x4 {
+    display: flex;
+    flex-direction: column; }
+  .motorhome_main_imgportada {
+    width: 70%; }
+  .index_main h1 {
+    font-size: xx-large; }
+  .index_main div {
+    padding-top: 10px; } }

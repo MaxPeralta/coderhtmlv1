@@ -1,8 +1,8 @@
-*{margin: 0;padding: 0;}
-*{font-family: 'Montserrat', sans-serif;}
+/* *{margin: 0;padding: 0;}
+*{font-family: 'Montserrat', sans-serif;} */
 
-.body {background-color: #fffcf5;}
-.nav {
+/* .body {background-color: #fffcf5;} */
+/* .nav {
         padding: 0px;
         height: 60px;
         background-color: #023e8a}
@@ -11,8 +11,8 @@
         background-color: #023e8a;}
 .nav div div ul li a {
         color: aliceblue;
-}
-.footer {background-color: #023e8a;
+} */
+/* .footer {background-color: #023e8a;
         margin-top: 50px;
         padding: 10px;}
 .footer img{
@@ -22,8 +22,8 @@
         color: #fffcf5;
         text-align: right;
         margin: 0px;
-}
-.index_main div{
+} */
+/* .index_main div{
         padding-top: 40px;
         padding-bottom: 40px;
 }
@@ -42,13 +42,13 @@
         margin-left: auto;
         margin-right: auto;
         display: block;
-}
-.divflex {
+} */
+/* .divflex {
         display: flex;
         flex-direction: row;
         justify-content: center;
-}
-.modelos_main img{
+} */
+/* .modelos_main img{
         width: 100%;
         margin-left: auto;
         margin-right: auto;
@@ -68,11 +68,11 @@
 .modelos_main button{
         margin-left: 10px;
         margin-right: 10px;
-}
-.fondoblanco {
+} */
+/* .fondoblanco {
         background-color:lavender;
-}
-.motorhome_main img {
+} */
+/* .motorhome_main img {
         margin-left: auto;
         margin-right: auto;
         display: block;}
@@ -88,8 +88,8 @@
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 50px;
-}
-.motorhome_grid {
+} */
+/* .motorhome_grid {
         display: grid;
         grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
         grid-template-rows: 6fr 2fr;
@@ -103,8 +103,8 @@
         padding-top: 5px;
         padding-right: 5px;
         border-radius: 10px;
-        }
-.img_pr{
+        } */
+/* .img_pr{
         grid-area: img_pr;
         background-image: url(../multimedia/a_int1.jpg);
         background-size: cover;
@@ -114,8 +114,8 @@
 .img_2{grid-area: img_2;}
 .img_3{grid-area: img_3;}
 .img_4{grid-area: img_4;
-}
-.motorhome_grid_b {
+} */
+/* .motorhome_grid_b {
         display: grid;
         grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
         grid-template-rows: 6fr 2fr;
@@ -130,14 +130,14 @@
         padding-top: 5px;
         padding-right: 5px;
         border-radius: 10px;
-        }
-.img_prb{
+        } */
+/* .img_prb{
         grid-area: img_prb;
         background-image: url(../multimedia/b_int1.jpg);
         background-size: cover;
         border-radius: 10px;
-        }
-.motorhome_grid_c {
+        } */
+/* .motorhome_grid_c {
         display: grid;
         grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
         grid-template-rows: 6fr 2fr;
@@ -152,15 +152,15 @@
         padding-top: 5px;
         padding-right: 5px;
         border-radius: 10px;
-        }
-.img_prc{
+        } */
+/* .img_prc{
         grid-area: img_prc;
         background-image: url(../multimedia/c_int1.jpg);
         background-size: cover;
         border-radius: 10px;
-        }
+        } */
 
-.motorhome_grid_4x4 {
+/* .motorhome_grid_4x4 {
         display: grid;
         grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
         grid-template-rows: 6fr 2fr;
@@ -175,19 +175,19 @@
         padding-top: 5px;
         padding-right: 5px;
         border-radius: 10px;
-        }
-.img_pr4x4{
+        } */
+/* .img_pr4x4{
         grid-area: img_pr4x4;
         background-image: url(../multimedia/4x4_int1.jpg);
         background-size: cover;
         border-radius: 10px;
-        }
-.motorhome_div {
+        } */
+/* .motorhome_div {
         padding-top: 50px;}
 .motorhome_div img{
         inline-size: 100%;
-}
-.contacto_main h2{
+} */
+/* .contacto_main h2{
         text-align: center;
         font-weight: 700;
         padding-top: 20px;}
@@ -199,8 +199,8 @@
         padding-bottom: 50px;}
 .contacto_main div{
         margin-top: 30px;
-}
-.formulario {
+} */
+/* .formulario {
         border: 10px;
         font-size: 90%;}
 .formulario label{
@@ -210,21 +210,21 @@
 .formulario textarea {
         width: 100%;
         box-sizing: border-box;
-}
-.img_scale img{
+} */
+/* .img_scale img{
         transition: all 0.5s;
-}
-.img_scale img:hover{
-        width: 110%;}
-.redes_sociales {
+} */
+/* .img_scale img:hover{
+        width: 110%;} */
+/* .redes_sociales {
         display: flex;
         flex-direction: row-reverse;
 }
 .redes_sociales img {
         width: 50px;
         height: 50px;
-}
-@media screen and (max-width: 768px) {
+} */
+/* @media screen and (max-width: 768px) {
         .motorhome_grid{
                 display: flex;
                 flex-direction: column;
@@ -250,4 +250,4 @@
         .index_main div{
                 padding-top: 10px;
         }
-}
+} */
