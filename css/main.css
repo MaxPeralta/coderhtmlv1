@@ -10,6 +10,12 @@
 * {
   font-family: 'Montserrat', sans-serif; }
 
+h1 {
+  font: bold 30px/1.5 "Montserrat", sans-serif; }
+
+h2 {
+  font: bold 30px/1.5 "Montserrat", sans-serif; }
+
 .nav {
   padding: 0px;
   height: 60px;
@@ -85,6 +91,8 @@
 
 .fondoblanco {
   background-color: lavender; }
+  .fondoblanco p {
+    text-align: justify; }
 
 .motorhome_main img {
   margin-left: auto;
@@ -115,9 +123,9 @@
   padding-top: 20px; }
   .motorhome_grid img {
     inline-size: 100%;
+    border-radius: 10px;
     padding-top: 5px;
-    padding-right: 5px;
-    border-radius: 10px; }
+    padding-right: 5px; }
 
 .motorhome_grid_b {
   display: grid;
@@ -128,9 +136,9 @@
   padding-top: 20px; }
   .motorhome_grid_b img {
     inline-size: 100%;
+    border-radius: 10px;
     padding-top: 5px;
-    padding-right: 5px;
-    border-radius: 10px; }
+    padding-right: 5px; }
 
 .motorhome_grid_c {
   display: grid;
@@ -141,9 +149,9 @@
   padding-top: 20px; }
   .motorhome_grid_c img {
     inline-size: 100%;
+    border-radius: 10px;
     padding-top: 5px;
-    padding-right: 5px;
-    border-radius: 10px; }
+    padding-right: 5px; }
 
 .motorhome_grid_4x4 {
   display: grid;
@@ -154,9 +162,9 @@
   padding-top: 20px; }
   .motorhome_grid_4x4 img {
     inline-size: 100%;
+    border-radius: 10px;
     padding-top: 5px;
-    padding-right: 5px;
-    border-radius: 10px; }
+    padding-right: 5px; }
 
 .img_pr {
   grid-area: img_pr;
