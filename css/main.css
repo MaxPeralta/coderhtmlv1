@@ -91,6 +91,8 @@ h2 {
 
 .fondoblanco {
   background-color: lavender; }
+  .fondoblanco h1 {
+    text-align: center; }
   .fondoblanco p {
     text-align: justify; }
 
@@ -235,10 +237,28 @@ h2 {
 
 .redes_sociales {
   display: flex;
-  flex-direction: row-reverse; }
+  flex-direction: row;
+  justify-content: end; }
   .redes_sociales img {
     width: 50px;
     height: 50px; }
+
+.breadcrumb {
+  display: flex;
+  flex-direction: row;
+  justify-content: end; }
+  .breadcrumb ul {
+    list-style: none; }
+  .breadcrumb li {
+    padding-top: 20px;
+    display: inline;
+    font-size: 15px; }
+    .breadcrumb li a {
+      color: #0275d8;
+      text-decoration: none; }
+      .breadcrumb li a:hover {
+        color: black;
+        text-decoration: underline; }
 
 @media screen and (max-width: 768px) {
   .motorhome_grid {
