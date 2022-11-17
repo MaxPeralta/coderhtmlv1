@@ -11,7 +11,7 @@ $ancho: 100%;
     padding-top: 5px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 50px;
+    
 }
 @mixin padding-t-r-5px {
     padding-top: 5px;
@@ -21,18 +21,41 @@ $ancho: 100%;
 h1 {font: $fuente-titulo}
 h2 {font: $fuente-titulo}
 
+header{
+    background-color: #023e8a;
+    padding: 0px;
+}
 .nav {
     padding: 0px;
     height: 60px;
     background-color: #023e8a;
-    div div {
-        justify-content: end;
-        background-color: #023e8a;
-        ul li a {
-            color: aliceblue;
-        }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    img{
+        display: block;
+        height: 80%;
+        width: auto;
+        padding-left: 10px;
+        padding-top: 10px;
     }
+    nav{
+        div{
+            flex-direction: row-reverse;
+            display: block;
+            width: auto;
+            margin-right: 0px;
+            div {
+                justify-content: end;
+                background-color: #023e8a;
+                ul li a {
+                color: aliceblue;
+                font-size: larger;
+                    }
+            }
+        }
        
+    }
 }
 
 .body {
@@ -65,11 +88,12 @@ h2 {font: $fuente-titulo}
         text-align: center;
     }
     img{
-        width: $ancho*0.9;
+        width: $ancho*0.7;
         margin-left: auto;
         margin-right: auto;
         display: block;
     }
+
 }
 .divflex {
     display: flex;
@@ -92,7 +116,7 @@ h2 {font: $fuente-titulo}
     div{
         padding-top: 30px;
     }
-    p{
+    h4{
         text-align: center;
         font-size: 15px;
         font-weight: 500;
@@ -102,7 +126,13 @@ h2 {font: $fuente-titulo}
         margin-left: 10px;
         margin-right: 10px;
     }
+    p{
+        font-weight: bolder;
+        display: inline-block;
+        margin: 0px;
+    }
 }
+
 .fondoblanco {
     background-color:lavender;
     h1{text-align: center;}
@@ -129,6 +159,25 @@ h2 {font: $fuente-titulo}
       @include padding-20px()
     }
 }
+
+.motorhome_div {
+    padding-top: 50px;
+    div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    img{
+        width: 50%;
+    }
+    p{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+}
+
 .motorhome_grid {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
@@ -218,13 +267,6 @@ h2 {font: $fuente-titulo}
     border-radius: 10px;
 }
 
-
-.motorhome_div {
-    padding-top: 50px;
-    img{
-        inline-size: 100%;
-    }
-}
 .contacto_main{
     h2{
         text-align: center;
@@ -250,6 +292,7 @@ h2 {font: $fuente-titulo}
     }
     input{
         display: block;
+        width: 100%;
     }
     textarea{
         width: 100%;
@@ -288,8 +331,8 @@ h2 {font: $fuente-titulo}
             }
         }
     }
-
 }
+
 @media screen and (max-width: 768px) {
     .motorhome_grid{
             display: flex;
@@ -310,10 +353,32 @@ h2 {font: $fuente-titulo}
     .motorhome_main_imgportada{
             width: 70%;
     }
+    .motorhome_main{
+        justify-content: center;
+    }
+    .index_main{
+        justify-content: center;
+    }
     .index_main h1{
             font-size:xx-large;
     }
     .index_main div{
             padding-top: 10px;
+    }
+    .index_main img{
+        width: 100%;
+    }
+    .motorhome_div {
+        img{
+            width: 100%;
+        }
+        p{
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }    
+    }
+    .contacto_main{
+        justify-content: center;
     }
 }

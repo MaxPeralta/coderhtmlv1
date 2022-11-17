@@ -1,7 +1,7 @@
 .img_scale img {
   transition: all 0.5s; }
   .img_scale img:hover {
-    width: 110%; }
+    width: 100%; }
 
 * {
   margin: 0;
@@ -16,15 +16,34 @@ h1 {
 h2 {
   font: bold 30px/1.5 "Montserrat", sans-serif; }
 
+header {
+  background-color: #023e8a;
+  padding: 0px; }
+
 .nav {
   padding: 0px;
   height: 60px;
-  background-color: #023e8a; }
-  .nav div div {
-    justify-content: end;
-    background-color: #023e8a; }
-    .nav div div ul li a {
-      color: aliceblue; }
+  background-color: #023e8a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .nav img {
+    display: block;
+    height: 80%;
+    width: auto;
+    padding-left: 10px;
+    padding-top: 10px; }
+  .nav nav div {
+    flex-direction: row-reverse;
+    display: block;
+    width: auto;
+    margin-right: 0px; }
+    .nav nav div div {
+      justify-content: end;
+      background-color: #023e8a; }
+      .nav nav div div ul li a {
+        color: aliceblue;
+        font-size: larger; }
 
 .body {
   background-color: #fffcf5; }
@@ -54,7 +73,7 @@ h2 {
   text-align: center; }
 
 .index_main img {
-  width: 90%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   display: block; }
@@ -79,7 +98,7 @@ h2 {
 .modelos_main div {
   padding-top: 30px; }
 
-.modelos_main p {
+.modelos_main h4 {
   text-align: center;
   font-size: 15px;
   font-weight: 500;
@@ -88,6 +107,11 @@ h2 {
 .modelos_main button {
   margin-left: 10px;
   margin-right: 10px; }
+
+.modelos_main p {
+  font-weight: bolder;
+  display: inline-block;
+  margin: 0px; }
 
 .fondoblanco {
   background-color: lavender; }
@@ -113,8 +137,21 @@ h2 {
   text-align: justify;
   padding-top: 5px;
   padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 50px; }
+  padding-right: 20px; }
+
+.motorhome_div {
+  padding-top: 50px; }
+  .motorhome_div div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center; }
+  .motorhome_div img {
+    width: 50%; }
+  .motorhome_div p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; }
 
 .motorhome_grid {
   display: grid;
@@ -204,11 +241,6 @@ h2 {
   background-size: cover;
   border-radius: 10px; }
 
-.motorhome_div {
-  padding-top: 50px; }
-  .motorhome_div img {
-    inline-size: 100%; }
-
 .contacto_main h2 {
   text-align: center;
   font-weight: 700;
@@ -230,7 +262,8 @@ h2 {
   .formulario label {
     display: block; }
   .formulario input {
-    display: block; }
+    display: block;
+    width: 100%; }
   .formulario textarea {
     width: 100%;
     box-sizing: border-box; }
@@ -275,7 +308,21 @@ h2 {
     flex-direction: column; }
   .motorhome_main_imgportada {
     width: 70%; }
+  .motorhome_main {
+    justify-content: center; }
+  .index_main {
+    justify-content: center; }
   .index_main h1 {
     font-size: xx-large; }
   .index_main div {
-    padding-top: 10px; } }
+    padding-top: 10px; }
+  .index_main img {
+    width: 100%; }
+  .motorhome_div img {
+    width: 100%; }
+  .motorhome_div p {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+  .contacto_main {
+    justify-content: center; } }
