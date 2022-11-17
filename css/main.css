@@ -312,6 +312,9 @@ header {
     justify-content: center; }
   .index_main {
     justify-content: center; }
+    .index_main div {
+      padding-top: 5px;
+      padding-bottom: 5px; }
   .index_main h1 {
     font-size: xx-large; }
   .index_main div {
@@ -325,4 +328,8 @@ header {
     margin-left: auto;
     margin-right: auto; }
   .contacto_main {
-    justify-content: center; } }
+    justify-content: center; }
+    .contacto_main div {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-top: 5px; } }

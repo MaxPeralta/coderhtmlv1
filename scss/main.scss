@@ -358,6 +358,10 @@ header{
     }
     .index_main{
         justify-content: center;
+        div{
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }   
     }
     .index_main h1{
             font-size:xx-large;
@@ -380,5 +384,10 @@ header{
     }
     .contacto_main{
         justify-content: center;
+        div{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-top: 5px;
+        }
     }
 }
